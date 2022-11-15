@@ -1,10 +1,18 @@
 html {
   font-size: 14px;
 }
+#imgBD{
+    width:450px;
 
-@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
   html {
     font-size: 16px;
+  }
+  #imgBD {
+      width:768px;
+
   }
 }
 

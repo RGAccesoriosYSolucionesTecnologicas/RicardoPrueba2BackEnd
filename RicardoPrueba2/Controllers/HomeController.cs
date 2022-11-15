@@ -13,6 +13,16 @@ namespace RicardoPrueba2.Controllers
             _logger = logger;
         }
 
+        public IActionResult Adm_Colaboradores()
+        {
+            return View();
+        }
+
+        public IActionResult Adm_Departamentos()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
