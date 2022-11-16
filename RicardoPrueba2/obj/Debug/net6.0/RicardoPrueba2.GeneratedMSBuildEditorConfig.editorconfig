@@ -15,12 +15,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ricky\Source\Repos\RicardoPrueba2BackEnd\RicardoPrueba2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Home/Adm_Colaboradores.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1fQ29sYWJvcmFkb3Jlcy5jc2h0bWw=
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Colaboradors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Home/Adm_Departamentos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1fRGVwYXJ0YW1lbnRvcy5jc2h0bWw=
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Colaboradors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Colaboradors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Colaboradors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Colaboradors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Departamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Departamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Departamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Departamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Departamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ricky/Source/Repos/RicardoPrueba2BackEnd/RicardoPrueba2/Views/Home/Index.cshtml]
