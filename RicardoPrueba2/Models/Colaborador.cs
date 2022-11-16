@@ -11,7 +11,7 @@ namespace RicardoPrueba2.Models
         public string? Comuna { get; set; }
         public int Telefono { get; set; }
         public string? Correo { get; set; }
-        public DateTime FechaContratacion { get; set; }
+        public string? FechaContratacion { get; set; }
         public string? ContratoIndefinido { get; set; }
 
         //FK

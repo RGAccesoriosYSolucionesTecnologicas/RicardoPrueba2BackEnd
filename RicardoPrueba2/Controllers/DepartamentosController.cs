@@ -17,14 +17,12 @@ namespace RicardoPrueba2.Controllers
         {
             _context = context;
         }
-
         // GET: Departamentos
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-              return View(await _context.Departamentos.ToListAsync());
+              return View(_context.Departamentos.ToList());
         }
-
-        // GET: Departamentos/Details/5
+        // GET: Departamentos/Detalles
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Departamentos == null)
@@ -42,27 +40,25 @@ namespace RicardoPrueba2.Controllers
             return View(departamento);
         }
 
-        // GET: Departamentos/Create
+        // GET: Departamentos/Crear
+
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Departamentos/Create
+        // POST: Departamentos/Crear
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DepartamentoId,NombreDepartamento,AreaDepartamento")] Departamento departamento)
+        public IActionResult Create(Departamento D)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(departamento);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+            _context.Departamentos.Add(D);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
             }
-            return View(departamento);
-        }
+        
 
         // GET: Departamentos/Edit/5
         public async Task<IActionResult> Edit(int? id)

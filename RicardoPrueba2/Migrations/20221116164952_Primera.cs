@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace RicardoPrueba2.Migrations
 {
     /// <inheritdoc />
-    public partial class uno : Migration
+    public partial class Primera : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,7 +35,7 @@ namespace RicardoPrueba2.Migrations
                     Comuna = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Telefono = table.Column<int>(type: "int", nullable: false),
                     Correo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FechaContratacion = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    FechaContratacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ContratoIndefinido = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DepartamentoId = table.Column<int>(type: "int", nullable: false)
                 },

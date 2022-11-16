@@ -55,17 +55,11 @@ namespace RicardoPrueba2.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Rut,Nombres,Apellidos,Direccion,Comuna,Telefono,Correo,FechaContratacion,ContratoIndefinido,DepartamentoId")] Colaborador colaborador)
+        public IActionResult Create(Colaborador C)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(colaborador);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["DepartamentoId"] = new SelectList(_context.Departamentos, "DepartamentoId", "DepartamentoId", colaborador.DepartamentoId);
-            return View(colaborador);
+            _context.Colaboradores.Add(C);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Colaboradors/Edit/5
